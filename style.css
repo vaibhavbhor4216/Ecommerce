@@ -54,6 +54,12 @@ header {
     height: 50%;
 }
 
+@media screen and (max-width: 767px) {
+    .hightlight-images {
+        width: 25%; /* Adjust the width for small screens */
+        height: 25%; /* Adjust the height for small screens */
+    }
+}
 .highlight-item {
     flex: 0 0 calc(50% - 20px); /* Two items per row on small screens */
     margin-bottom: 30px;
