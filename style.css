@@ -68,6 +68,12 @@ header {
         flex: 0 0 calc(25% - 20px); /* Four items per row on larger screens */
     }
 }
+@media screen and (max-width: 767px) {
+    .highlight-item {
+        height: auto; /* Allow the height to adjust based on content */
+    }
+}
+
 
 .highlight-item h2 {
     color: #333;
