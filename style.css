@@ -34,9 +34,6 @@ header {
     z-index: 1000;
 }
 
-/* Add this to your existing style.css or create a new one */
-
-/* Add this to your existing style.css or create a new one */
 
 .highlight-section {
     /* background-color: #f8f8f8; */
@@ -58,11 +55,17 @@ header {
 }
 
 .highlight-item {
-    flex: 0 0 calc(25% - 20px); /* Adjust the percentage as needed */
+    flex: 0 0 calc(50% - 20px); /* Two items per row on small screens */
     margin-bottom: 30px;
     padding: 15px;
     background-color: #fff; /* Add a background color for each item */
     border: 1px solid #ddd; /* Add a border for each item */
+}
+
+@media screen and (min-width: 768px) {
+    .highlight-item {
+        flex: 0 0 calc(25% - 20px); /* Four items per row on larger screens */
+    }
 }
 
 .highlight-item h2 {
