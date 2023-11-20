@@ -70,7 +70,7 @@ header {
 }
 @media screen and (max-width: 767px) {
     .highlight-item {
-        width: 90%;
+        width: 500px;
         height: 500px; /* Allow the height to adjust based on content */
     }
 }
