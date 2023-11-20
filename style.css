@@ -60,6 +60,7 @@ header {
     padding: 15px;
     background-color: #fff; /* Add a background color for each item */
     border: 1px solid #ddd; /* Add a border for each item */
+    height: 400px;
 }
 
 @media screen and (min-width: 768px) {
